@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .table1, th, td{
+    border: 1px solid black;
+}
+
+.table1{
+    border-collapse: collapse;
+} */
+
+/* .table2, th, td {
+    border: 1px solid black;
+}
+
+.table2{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td{
+    text-align: center;
+} */
+
+/* .list1{
+    margin: 10px 0;
+    padding-left: 40px;
+}
+
+ol{
+    padding-left: 40px;
+} */
+
+/* ul, ol{
+    padding-left: 40px;
+} */
+
+.block1, .block2, .block3{
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.block1{
+    border: 5px solid red;
+}
+
+.block2{
+    border: 5px solid green;
+}
+
+.block3{
+    border: 5px solid black;
+}
+
+/* .p1{
+    font-size: 20px;
+    color: red;
+}
+
+.p2{
+    font-size: 18px;
+    color: green;
+}
+
+.p3{
+    color: darkgrey;
+} */
+
+/* Параграфу из block1 передаем стили*/
+
+.block1>p{
+    font-size: 20px;
+    color: red;
+}
+
+.block2>p{
+    font-size: 18px;
+    color: green;
+}
+
+
+/* Дочерний элемент */
+/* Всем дочерним параграфам блока 3 */
+.block3>p{
+    color: darkgray;
+}
+
+/* Потомки */
+/* Всем потомкам параграфам блока 3 */
+.block3 p{
+    color: darkgray;
+}
+
+.block3 p{
+    color: pink;
+}
+
+p{
+    color: yellow;
+}
+
+/* 
+    tag name - 1
+    .class_name - 10
+    #id - 1000
+*/
